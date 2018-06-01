@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Regression Suite">
+	<!-- In order to use the Listener methods, we need to set the below parameter -->
+	<listeners>
+		<listener class-name="com.Gmail.GmailAutomation.customListener.Listener"></listener>
+	</listeners>
+
+	<test name="1. Invalid account validation">
+		<parameter name="gmail_username" value="fsafdsfsfsfggddggercsada"></parameter>
+		<parameter name="gmail_password" value="selenium1"></parameter>
+		<classes>
+			<class name="com.Gmail.GmailAutomation.gmail.loginTests.TC_01_InvalidEmail"></class>
+		</classes>
+	</test>
+
+</suite>

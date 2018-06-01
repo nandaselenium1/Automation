@@ -1,0 +1,35 @@
+2018-05-25 07:55:24 INFO  TC_01_InvalidEmail:41 - =========testInvalidEmail is Starting=========
+2018-05-25 07:55:24 INFO  GmailLoginPage:44 - Entering email
+2018-05-25 07:55:34 INFO  GmailLoginPage:51 - Clicking on Next button after email
+2018-05-25 07:55:35 INFO  TC_01_InvalidEmail:48 - =========testInvalidEmail is ending=========
+2018-05-25 08:01:36 INFO  TC_01_InvalidEmail:41 - =========testInvalidEmail is Starting=========
+2018-05-25 08:01:36 INFO  GmailLoginPage:44 - Entering email
+2018-05-25 08:01:46 INFO  GmailLoginPage:51 - Clicking on Next button after email
+2018-05-25 08:01:46 INFO  TC_01_InvalidEmail:48 - =========testInvalidEmail is ending=========
+2018-05-31 07:11:00 INFO  TC_01_InvalidEmail:41 - =========testInvalidEmail is Starting=========
+2018-05-31 07:11:00 INFO  GmailLoginPage:44 - Entering email
+2018-05-31 07:11:09 INFO  GmailLoginPage:51 - Clicking on Next button after email
+2018-05-31 07:11:10 INFO  TC_01_InvalidEmail:48 - =========testInvalidEmail is ending=========
+2018-05-31 08:21:43 INFO  TC_01_InvalidEmail:41 - =========testInvalidEmail is Starting=========
+2018-05-31 08:21:43 INFO  GmailLoginPage:44 - Entering email
+2018-05-31 08:21:53 INFO  GmailLoginPage:51 - Clicking on Next button after email
+2018-05-31 08:21:53 INFO  TC_01_InvalidEmail:48 - =========testInvalidEmail is ending=========
+2018-05-31 08:21:56 INFO  TestBase:222 - Browser Closed
+2018-05-31 08:30:02 INFO  TC_01_InvalidEmail:41 - =========testInvalidEmail is Starting=========
+2018-05-31 08:30:02 INFO  GmailLoginPage:44 - Entering email
+2018-05-31 08:30:11 INFO  GmailLoginPage:51 - Clicking on Next button after email
+2018-05-31 08:30:14 INFO  TestBase:222 - Browser Closed
+2018-05-31 08:55:44 INFO  TC_01_InvalidEmail:41 - =========testInvalidEmail is Starting=========
+2018-05-31 08:55:44 INFO  GmailLoginPage:44 - Entering email
+2018-05-31 08:55:53 INFO  GmailLoginPage:51 - Clicking on Next button after email
+2018-05-31 08:55:56 INFO  TestBase:230 - Browser Closed
+2018-05-31 08:58:09 INFO  TC_01_InvalidEmail:41 - =========testInvalidEmail is Starting=========
+2018-05-31 08:58:09 INFO  GmailLoginPage:44 - Entering email
+2018-05-31 08:58:19 INFO  GmailLoginPage:51 - Clicking on Next button after email
+2018-05-31 08:58:20 INFO  TC_01_InvalidEmail:48 - =========testInvalidEmail is ending=========
+2018-05-31 08:58:22 INFO  TestBase:230 - Browser Closed
+2018-05-31 09:01:55 INFO  TC_01_InvalidEmail:41 - =========testInvalidEmail is Starting=========
+2018-05-31 09:01:55 INFO  GmailLoginPage:44 - Entering email
+2018-05-31 09:02:05 INFO  GmailLoginPage:51 - Clicking on Next button after email
+2018-05-31 09:02:06 INFO  TC_01_InvalidEmail:48 - =========testInvalidEmail is ending=========
+2018-05-31 09:02:07 INFO  TestBase:230 - Browser Closed

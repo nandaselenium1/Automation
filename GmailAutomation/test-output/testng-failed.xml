@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression Suite]">
+  <listeners>
+    <listener class-name="com.Gmail.GmailAutomation.customListener.Listener"/>
+  </listeners>
+  <test name="1. Invalid account validation(failed)">
+    <parameter name="gmail_password" value="selenium1"/>
+    <parameter name="gmail_username" value="fsafdsfsfsfggddggercsada"/>
+    <classes>
+      <class name="com.Gmail.GmailAutomation.gmail.loginTests.TC_01_InvalidEmail">
+        <methods>
+          <include name="testInvalidEmail" invocation-numbers="0"/>
+          <include name="beforeMethod"/>
+          <include name="endTest"/>
+          <include name="afterMethod"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.Gmail.GmailAutomation.gmail.loginTests.TC_01_InvalidEmail -->
+    </classes>
+  </test> <!-- 1. Invalid account validation(failed) -->
+</suite> <!-- Failed suite [Regression Suite] -->
