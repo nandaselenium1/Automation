@@ -1,11 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
+    <line>
+      <![CDATA[<a href='C:\Users\nmm\Documents\Work Related\My Gt Project\Automation\GmailAutomation\src\main\java\com\Gmail\GmailAutomation\screenshots\success_screenshots\testInvalidEmail_03_06_2018_08_48_04.png'> <img src='C:\Users\nmm\Documents\Work Related\My Gt Project\Automation\GmailAutomation\src\main\java\com\Gmail\GmailAutomation\screenshots\success_screenshots\testInvalidEmail_03_06_2018_08_48_04.png' height='100' width='100'/> </a>]]>
+    </line>
   </reporter-output>
-  <suite name="com.Gmail.GmailAutomation.AppTest" duration-ms="0" started-at="2018-05-24T17:29:44Z" finished-at="2018-05-24T17:29:44Z">
+  <suite name="Regression Suite" duration-ms="24697" started-at="2018-06-03T03:17:42Z" finished-at="2018-06-03T03:18:06Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="0" started-at="2018-05-24T17:29:44Z" finished-at="2018-05-24T17:29:44Z">
-    </test> <!-- Command line test -->
-  </suite> <!-- com.Gmail.GmailAutomation.AppTest -->
+    <test name="1. Invalid account validation" duration-ms="24697" started-at="2018-06-03T03:17:42Z" finished-at="2018-06-03T03:18:06Z">
+      <class name="com.Gmail.GmailAutomation.gmail.loginTests.TC_01_InvalidEmail">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.Gmail.GmailAutomation.gmail.loginTests.TC_01_InvalidEmail@27fe3806]" name="setUp" is-config="true" duration-ms="11623" started-at="2018-06-03T08:47:42Z" finished-at="2018-06-03T08:47:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.Gmail.GmailAutomation.gmail.loginTests.TC_01_InvalidEmail@27fe3806]" name="beforeMethod" is-config="true" duration-ms="8" started-at="2018-06-03T08:47:53Z" finished-at="2018-06-03T08:47:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.Gmail.GmailAutomation.gmail.loginTests.TC_01_InvalidEmail.testInvalidEmail(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testInvalidEmail(java.lang.String)[pri:1, instance:com.Gmail.GmailAutomation.gmail.loginTests.TC_01_InvalidEmail@27fe3806]" name="testInvalidEmail" duration-ms="10745" started-at="2018-06-03T08:47:53Z" description="To verify invalid account/email, which doesnot exist in DB" finished-at="2018-06-03T08:48:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[fsafdsfsfsfggddggercsada]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<a href='C:\Users\nmm\Documents\Work Related\My Gt Project\Automation\GmailAutomation\src\main\java\com\Gmail\GmailAutomation\screenshots\success_screenshots\testInvalidEmail_03_06_2018_08_48_04.png'> <img src='C:\Users\nmm\Documents\Work Related\My Gt Project\Automation\GmailAutomation\src\main\java\com\Gmail\GmailAutomation\screenshots\success_screenshots\testInvalidEmail_03_06_2018_08_48_04.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testInvalidEmail -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.Gmail.GmailAutomation.gmail.loginTests.TC_01_InvalidEmail@27fe3806]" name="afterMethod" is-config="true" duration-ms="4" started-at="2018-06-03T08:48:04Z" finished-at="2018-06-03T08:48:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testInvalidEmail status=SUCCESS method=TC_01_InvalidEmail.testInvalidEmail(java.lang.String)[pri:1, instance:com.Gmail.GmailAutomation.gmail.loginTests.TC_01_InvalidEmail@27fe3806] output=<a href='C:\Users\nmm\Documents\Work Related\My Gt Project\Automation\GmailAutomation\src\main\java\com\Gmail\GmailAutomation\screenshots\success_screenshots\testInvalidEmail_03_06_2018_08_48_04.png'> <img src='C:\Users\nmm\Documents\Work Related\My Gt Project\Automation\GmailAutomation\src\main\java\com\Gmail\GmailAutomation\screenshots\success_screenshots\testInvalidEmail_03_06_2018_08_48_04.png' height='100' width='100'/> </a>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.Gmail.GmailAutomation.gmail.loginTests.TC_01_InvalidEmail@27fe3806]" name="endTest" is-config="true" duration-ms="1865" started-at="2018-06-03T08:48:04Z" finished-at="2018-06-03T08:48:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.Gmail.GmailAutomation.gmail.loginTests.TC_01_InvalidEmail -->
+    </test> <!-- 1. Invalid account validation -->
+  </suite> <!-- Regression Suite -->
 </testng-results>
